@@ -684,18 +684,17 @@ background: #404BBF;
   left: 50%;
   transform: translate(-50%, -50%) scaleX(1);
   transition: transform var(--transition-effect);
-  width: 408px;
+ 
+}
+.modal-wrapper {
+ width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
-
 }
-
- 
-
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleX(0);
 }
@@ -736,6 +735,7 @@ background: #404BBF;
 .modal-button:focus .modal-button-icon {
   fill: #ffffff;
 }
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
