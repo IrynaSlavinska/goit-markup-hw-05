@@ -844,7 +844,7 @@ outline: transparent;
   color: var(--customers-color);
 }
 .user-privacy-span {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -855,9 +855,9 @@ outline: transparent;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-check:checked + .user-privacy-span {
-  background-color: #404bbf;
-   border: none;
+.input-check:checked + .check-text > .user-privacy-span {
+  background-color: var(--hover-focus-color);
+  border: none;
   fill: #f4f4fd;
 }
 .modal-check-button {
